@@ -101,12 +101,6 @@
         "Colaborar con equipos de diseño y gestión de proyectos para cumplir objetivos estratégicos.",
         "Garantizar la calidad del código mediante pruebas unitarias, integración continua y revisiones técnicas."
       ],
-      "Objetivos": [
-        "Reduje un flujo de análisis de datos del Ministerio de Hacienda de España de 30 días a menos de 10 segundos mediante un microservicio especializado.",
-        "Desarrollé una aplicación crítica para el sistema nacional de salud español, capaz de manejar grandes volúmenes de datos y lógica de negocio compleja.",
-        "Optimicé la performance de front-end, logrando mejoras significativas en tiempos de carga y experiencia de usuario.",
-        "Creé una herramienta interna de documentación de código, con componentes interactivos y testeables, que incrementó la eficiencia del equipo."
-      ],
       "skills": {
         "HTML5": "simple-icons:html5",
         "CSS3": "ri:css3-fill",
