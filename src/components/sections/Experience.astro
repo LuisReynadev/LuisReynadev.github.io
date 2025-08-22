@@ -8,7 +8,7 @@ const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
 
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
+    {work.map(({ name, startDate, endDate, position, Resumen, Responsabilidades, Objetivos, url, skills, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
       const timeLapse = (endDate!=null?new Date(endDate).getTime():new Date().getTime()) - new Date(startDate).getTime()
@@ -48,39 +48,39 @@ const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
                 </div>
               )}
               <div class="mt-4  print:gap-0 flex flex-col gap-4 print:text-xs text-sm">
-                {summary && (
+                {Resumen && (
                   <div class="flex flex-col gap-1">
-                    <h4 class="print:font-bold" data-ccursor="lift">Summary:</h4>
+                    <h4 class="print:font-bold" data-ccursor="lift">Resumen:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                      {Array.isArray(summary) ? (
-                        summary.map(item => (
+                      {Array.isArray(Resumen) ? (
+                        Resumen.map(item => (
                           {item}
                         ))
                       ) : (
-                        <li data-ccursor>{summary}</li>
+                        <li data-ccursor>{Resumen}</li>
                       )}
                     </ul>
                   </div>
                 )}
 
-                {(responsibilities || achievements) &&  (
+                {(Responsabilidades || Objetivos) &&  (
                 <div class="after:from-skin-hue dark:after:to-skin-hue/0 flex relative flex-col print:!h-auto gap-4 print:gap-2 after:bg-gradient-to-t after:absolute after:bottom-0 after:w-full print:after:hidden after:h-12 after:content-[''] h-16 group-data-[expanded=true]:after:hidden group-data-[expanded=true]:h-auto overflow-hidden duration-200 ease-out">
-                {responsibilities && (
+                {Responsabilidades && (
                   <div class="flex flex-col gap-1">
-                    <h4 class="print:font-bold print:pt-1" data-ccursor="lift">Responsibilities:</h4>
+                    <h4 class="print:font-bold print:pt-1" data-ccursor="lift">Responsabilidades:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                      {responsibilities.map(responsibility => (
+                      {Responsabilidades.map(responsibility => (
                         <li data-ccursor>{responsibility}</li>
                       ))}
                     </ul>
                   </div>
                 )}
 
-                {achievements && (
+                {Objetivos && (
                   <div class="flex flex-col gap-1">
-                    <h4 class="print:font-bold print:pt-1" data-ccursor="lift">Achievements:</h4>
+                    <h4 class="print:font-bold print:pt-1" data-ccursor="lift">Objetivos:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                      {achievements.map(achievement => (
+                      {Objetivos.map(achievement => (
                         <li data-ccursor>{achievement}</li>
                       ))}
                     </ul>
@@ -89,7 +89,7 @@ const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
                 </div>
 
                 <button data-ccursor="lift" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-inverted flex expand-button">
-                  <span class="expand-text">Show more</span>
+                  <span class="expand-text">Mostrar más</span>
                   <Icon name="ri:arrow-up-s-line" class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out group-data-[expanded=true]:rotate-180" width={24} height={24}></Icon>
                 </button>
 
@@ -120,7 +120,7 @@ const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
       const container = button.closest<HTMLElement>('.expand-container')!;
       container.dataset.expanded = container.dataset.expanded === 'true' ? 'false' : 'true';
       const expandText = button.querySelector('.expand-text')!;
-      expandText.innerHTML = container.dataset.expanded === 'true' ? 'Show less' : 'Show more'
+      expandText.innerHTML = container.dataset.expanded === 'true' ? 'Mostrar menos' : 'Mostrar más'
     });
   });
 </script>

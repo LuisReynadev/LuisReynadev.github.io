@@ -5,7 +5,7 @@ import { work } from '@cv'
 import {Icon} from "astro-icon/components";
 
 
-const { name, label, location, profiles, summary } = basics
+const { name, label, location, profiles, Resumen } = basics
 const { city, region, address } = location
 ---
 
@@ -27,7 +27,7 @@ const { city, region, address } = location
         
         <div class="mb-2">
           <p class="font-mono opacity-75 font-semibold nvim-line">
-            {summary}
+            {Resumen}
           </p>
         </div>
         
@@ -55,7 +55,7 @@ const { city, region, address } = location
         
         <div class="min-h-max">
           {
-            work && work.map(({ name, location, location_type, summary, responsibilities, achievements }) => {
+            work && work.map(({ name, location, location_type, Resumen, Responsabilidades, Objetivos }) => {
               return (
                 <div class="mb-4">
                   <h3 class="text-lg font-bold text-blue nvim-line">{name}</h3>
@@ -65,37 +65,37 @@ const { city, region, address } = location
                     </div>
                   )}
                   <div class="mt-4 flex flex-col gap-4 text-sm">
-                    {summary && (
+                    {Resumen && (
                       <div class="flex flex-col gap-2">
-                        <h4 class="text-green nvim-line">Summary:</h4>
+                        <h4 class="text-green nvim-line">Resumen:</h4>
                         <ul class="text-skin-muted [&>li]:ml-4 flex list-decimal flex-col gap-2">
-                          {Array.isArray(summary) ? (
-                            summary.map(item => (
+                          {Array.isArray(Resumen) ? (
+                            Resumen.map(item => (
                               <li class="nvim-line">{item}</li>
                             ))
                           ) : (
-                            <li class="nvim-line">{summary}</li>
+                            <li class="nvim-line">{Resumen}</li>
                           )}
                         </ul>
                       </div>
                     )}
                     
-                    { responsibilities &&  (
+                    { Responsabilidades &&  (
                         <div class="flex flex-col gap-2">
-                          <h4 class="text-green nvim-line">Responsibilities:</h4>
+                          <h4 class="text-green nvim-line">Responsabilidades:</h4>
                           <ul class="text-skin-muted [&>li]:ml-4 flex flex-col gap-2 list-decimal">
-                            {responsibilities.map(responsibility => (
+                            {Responsabilidades.map(responsibility => (
                               <li class="nvim-line">{responsibility}</li>
                             ))}
                           </ul>
                         </div>
                       )}
                     
-                    { achievements && (
+                    { Objetivos && (
                       <div class="flex flex-col gap-2">
-                        <h4 class="text-green nvim-line">Achievements:</h4>
+                        <h4 class="text-green nvim-line">Objetivos:</h4>
                         <ul class="text-skin-muted [&>li]:ml-4 flex flex-col gap-2 list-decimal">
-                          {achievements.map(achievement => (
+                          {Objetivos.map(achievement => (
                             <li class="nvim-line">{achievement}</li>
                           ))}
                         </ul>

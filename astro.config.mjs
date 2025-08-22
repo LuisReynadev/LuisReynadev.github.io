@@ -22,11 +22,11 @@ export default defineConfig({
       CSS: false,
       Image: false,
       Action: {
-        Passed: async () => true,   // https://github.com/PlayForm/Compress/issues/376
+        Passed: async () => true, 
       },
     })
   ],
   output: "hybrid",
   adapter: vercel(),
-  site: "https://arielfalcon.me",
+  site: "",
 });

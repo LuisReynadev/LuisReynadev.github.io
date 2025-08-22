@@ -1,119 +1,111 @@
 {
   "analyticsCode": "",
   "basics": {
-    "name": "Ariel G. Falcón",
+    "name": "Luis E. Reyna",
     "label": "Software Developer",
     "animated_main_label": "developer",
     "animated_secondary_initial_label": "software",
     "animated_secondary_final_label": "full_stack",
     "image": "/pfp.webp",
     "email": "falconyumn@gmail.com",
-    "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Full-Stack web developer, at the moment. I work on Angular and Vue with Java / Spring. Currently learning about AWS, Cloud Computing and DevOps.",
+    "url": "https://www.linkedin.com/in/luis-reyna-7351b1256",
+    "Resumen": "Desarrollador Full-Stack especializado en Angular, Vue, Node.js y Laravel. Experiencia en desarrollo de aplicaciones web modernas, integración de APIs, bases de datos relacionales y no relacionales, y despliegue en la nube. Actualmente ampliando conocimientos en AWS, Cloud Computing y DevOps.",
     "theme": "red",
     "location": {
-      "address": "Alcalá de Henares",
-      "city": "Madrid",
-      "countryCode": "ES",
-      "region": "Spain"
+      "address": "Manabí",
+      "city": "Manabí",
+      "countryCode": "EC",
+      "region": "Ecuador"
     },
     "profiles": [
-      {
-        "network": "X / Twitter",
-        "icon": "ri:twitter-fill",
-        "color": "#1DA1F2",
-        "username": "@arielGfalcon",
-        "url": "https://x.com/arielGfalcon"
-      },
+
       {
         "network": "LinkedIn",
         "icon": "ri:linkedin-fill",
         "color": "#0066C2",
-        "username": "Ariel Falcón",
-        "url": "https://linkedin.com/in/arielfalcon"
+        "username": "Luis Reyna",
+        "url": "https://linkedin.com/in/luisEreyna"
       },
       {
         "network": "GitHub",
         "icon": "mdi:github",
         "color": "#929AAB",
-        "username": "ArielFalcon",
-        "url": "https://github.com/ArielFalcon"
+        "username": "LuisReynadev",
+        "url": "https://github.com/LuisReynadev"
       },
       {
         "network": "Email",
         "icon": "ri:mail-fill",
         "color": "#D44638",
-        "username": "Ariel González Falcón",
-        "url": "mailto:falconyumn@gmail.com"
+        "username": "Luis Esteban Reyna",
+        "url": "mailto:luisreynadev@gmail.com"
       }
     ]
   },
   "education": [
     {
-      "institution": "Experis Academy – Spain",
+      "institution": "Universidad Regional Autónoma de los Andes",
       "url": "https://www.linkedin.com/school/experis-academy",
-      "area": "Cloud Computing (AWS)",
+      "area": "Ingeniería de Software",
       "studyType": "Full-time student",
-      "startDate": "2025-01-01",
-      "endDate": "2025-05-21"
+      "startDate": "2020-02-01",
+      "endDate": "2024-05-21"
     },
     {
-      "institution": "TEIDE Formation Center – Spain",
-      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n",
-      "area": "Web Development",
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/",
+      "area": "Curso de Python - Aprende desde cero",
       "studyType": "Full-time student",
-      "startDate": "2023-04-01",
+      "startDate": "2023-09-23",
       "endDate": "2023-09-01"
     },
     {
-      "institution": "Calixto García Medical School – Cuba",
-      "url": "https://www.linkedin.com/company/hospital-universitario-calixto-garcia/?originalSubdomain=cu",
-      "area": "Medicine (unfinished)",
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/",
+      "area": "Node de cero a experto",
       "studyType": "Full-time student",
-      "startDate": "2018-9-01",
-      "endDate": "2021-7-01"
+      "startDate": "2023-09-01",
+      "endDate": "2023-09-07"
     }
   ],
   "certificates": [
     {
-      "name": "AWS Certified Developer – Associate",
-      "date": "2025-05-01",
-      "url": "",
-      "issuer": "Amazon"
-    },
-    {
-      "name": "C1 Advanced English",
-      "date": "2025-01-03",
-      "url": "https://cert.efset.org/es/6jDrGH",
+      "name": "B2 English European Framework",
+      "date": "2024-01-01",
+      "url": "https://www.cttdelosandes.net/languagecentercert/public/getCertificado/eyJpdiI6IjJuVDAra1JXQm9PODU5UGQ3MXlCRWc9PSIsInZhbHVlIjoiMFpSQnlIL2RHdjFBblIxQjhWcWEzdz09IiwibWFjIjoiZDI5NmFiOTBhMGFmYTM2NGY3ZWMyMjIzZGRjMzhkOWRmZTI0ZmRjOWRkOGJjOWQ5OGNlZTQ2NTJlZTRhZDlhOCIsInRhZyI6IiJ9",
       "issuer": "EF SET"
     }
   ],
   "work": [
     {
-      "name": "Zener Soft Consulting",
+      "name": "Visual Marketing",
       "position": "Full-Stack Developer",
       "location_type": "Remote",
-      "location": "ES",
-      "url": "https://www.linkedin.com/company/aitor-pelaez-zenerconsulting-com/",
+      "location": "EC",
+      "url": "https://www.linkedin.com/company/visual-marketingvm/",
       "startDate": "2023-07-03",
       "endDate": null,
-      "summary": "Experienced in developing high-complexity, scalable, data-driven projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services, Hexagonal, DDD, Spring Java project.",
+      "Resumen": "Full-Stack Developer especializado en proyectos de alta complejidad, escalables y orientados a datos, aplicando arquitecturas modernas y patrones de diseño. Enfoque en rendimiento, experiencia de usuario, integración de sistemas y entrega de valor al negocio.",
       "highlights": [
-        "Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."
+        "Diseño y desarrollo full-stack con Angular (frontend) y NodeJS/Laravel (backend).",
+        "Implementación de microservicios y endpoints de negocio integrados con grandes volúmenes de datos.",
+        "Optimización de performance en front-end y back-end, reduciendo tiempos de carga y mejorando UX.",
+        "Colaboración ágil con equipos multidisciplinarios en entornos de alta demanda.",
+        "Aplicación de patrones de diseño y buenas prácticas de arquitectura (DDD, SOLID, MVC)."
       ],
-      "responsibilities": [
-        "Developed and maintained projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
-        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
-        "Ensured code quality and optimized front-end and back-end performance to meet user needs and business objectives.",
-        "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
-        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction.",
-        "Developed endpoints and services for business logic and data management, ensuring seamless integration with front-end applications."
+      "Responsabilidades": [
+        "Diseñar, desarrollar y mantener proyectos escalables y orientados a datos.",
+        "Implementar microservicios y APIs RESTful para la gestión de datos y lógica de negocio.",
+        "Optimizar consultas SQL y procesos backend para mejorar el rendimiento del sistema.",
+        "Asegurar integración fluida entre la lógica de negocio y la capa de presentación.",
+        "Colaborar con equipos de diseño y gestión de proyectos para cumplir objetivos estratégicos.",
+        "Garantizar la calidad del código mediante pruebas unitarias, integración continua y revisiones técnicas."
       ],
-      "achievements": [
-        "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
-        "Developed an internal tool to streamline client-owned code documentation, introducing interactive design guidelines and testable components.",
-        "Created a highly complex application for the national healthcare system, successfully handling large-scale data management and implementing intricate business logic.",
-        "Built a data analysis microservice for the Spanish Treasury Department, reducing a 30-day iteration workflow to under 10 seconds."
+      "Objetivos": [
+        "Reduje un flujo de análisis de datos del Ministerio de Hacienda de España de 30 días a menos de 10 segundos mediante un microservicio especializado.",
+        "Desarrollé una aplicación crítica para el sistema nacional de salud español, capaz de manejar grandes volúmenes de datos y lógica de negocio compleja.",
+        "Optimicé la performance de front-end, logrando mejoras significativas en tiempos de carga y experiencia de usuario.",
+        "Creé una herramienta interna de documentación de código, con componentes interactivos y testeables, que incrementó la eficiencia del equipo."
       ],
       "skills": {
         "HTML5": "simple-icons:html5",
@@ -124,10 +116,6 @@
         "TypeScript": "simple-icons:typescript",
         "Vue": "mdi:vuejs",
         "Angular": "simple-icons:angular",
-        "Jasmine": "simple-icons:jasmine",
-        "Jest": "simple-icons:jest",
-        "Java": "ri:java-line",
-        "Spring": "simple-icons:spring",
         "NodeJS": "ri:nodejs-line",
         "Postman": "simple-icons:postman",
         "i18n": "simple-icons:i18next",
@@ -135,7 +123,6 @@
         "GitHub": "mdi:github",
         "Figma": "simple-icons:figma",
         "Jira": "simple-icons:jira",
-        "Kubernetes": "simple-icons:kubernetes",
         "Docker": "simple-icons:docker"
       }
     }
@@ -227,17 +214,6 @@
       ]
     },
     {
-      "name": "RxJS",
-      "icon": "simple-icons:reactivex",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Reactive Programming",
-        "JavaScript"
-      ]
-    },
-    {
       "name": "Vue",
       "icon": "mdi:vuejs",
       "level": "Intermediate",
@@ -279,25 +255,6 @@
         "Web Development",
         "Frontend",
         "Backend"
-      ]
-    },
-    {
-      "name": "Java",
-      "icon": "ri:java-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Spring",
-      "icon": "simple-icons:spring",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Java Framework"
       ]
     },
     {
@@ -374,16 +331,6 @@
       ]
     },
     {
-      "name": "Kubernetes",
-      "icon": "mdi:kubernetes",
-      "level": "Beginner",
-      "keywords": [
-        "Virtual Environments",
-        "Backend",
-        "Container Orchestration"
-      ]
-    },
-    {
       "name": "Python",
       "icon": "simple-icons:python",
       "level": "Beginner",
@@ -391,28 +338,6 @@
         "Scripting",
         "Automation",
         "Web Development"
-      ]
-    },
-    {
-      "name": "Jest",
-      "icon": "simple-icons:jest",
-      "level": "Intermediate",
-      "keywords": [
-        "Testing",
-        "Web Development",
-        "Frontend",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Jasmine",
-      "icon": "simple-icons:jasmine",
-      "level": "Intermediate",
-      "keywords": [
-        "Testing",
-        "Web Development",
-        "Frontend",
-        "Backend"
       ]
     },
     {
@@ -434,17 +359,7 @@
         "Automation"
       ]
     },
-    {
-      "name": "Swagger",
-      "icon": "simple-icons:swagger",
-      "level": "Beginner",
-      "keywords": [
-        "API",
-        "Documentation",
-        "Web Development",
-        "Backend"
-      ]
-    },
+
     {
       "name": "Postman",
       "icon": "simple-icons:postman",
@@ -479,100 +394,91 @@
   ],
   "projects": [
     {
-      "name": "CV Matching System",
+      "name": "SapiTrips",
       "isActive": true,
-      "description": "A propiertary code AI-driven CV matching system to connect the offer and the best candidates. Automates the recruitment process.",
+      "description": "SapiTrips es una plataforma de gestión y reserva de viajes grupales, diseñada para optimizar la organización, comunicación y pagos entre agencias, coordinadores y viajeros.",
       "highlights": [
-        "🎯 Tailored job opportunities",
-        "✨ AI-driven complex workflows ",
-        "🚀 80% increase in productivity"
+      "🚌 Gestión integral de viajes grupales",
+      "💳 Pagos y seguimiento de cuotas en tiempo real",
+      "📱 Comunicación entre coordinadores y viajeros",
+      "📊 Paneles de control para agencias"
       ],
       "stack": {
-        "Python": "simple-icons:python",
-        "Redis": "simple-icons:redis",
-        "Firebase": "simple-icons:firebase",
-        "Google Cloud": "simple-icons:googlecloud",
-        "Claude": "ri:claude-fill",
-        "Groq": "ri:robot-2-fill"
+      "Laravel": "simple-icons:laravel",
+      "MySQL": "simple-icons:mysql",
+      "Vps": "simple-icons:googlecloud",
+      "NodeJS": "ri:nodejs-line"
       },
-      "url": "https://www.gringojobs.com"
+      "url": "https://sapitrips.com/"
     },
     {
-      "name": "TODO List",
+      "name": "Sistema Contable",
       "isActive": false,
-      "description": "A simple app to showcase my skills in Angular. It's a TODO list with a beautiful and smooth UI, good user experience and best practices. Not finished yet.",
+      "description": "Aplicación contable desarrollada con .NET, Docker y Redis. Permite la gestión de cuentas, transacciones y reportes financieros en tiempo real, con arquitectura escalable y moderna.",
       "highlights": [
-        "📝 In progress",
-        "😮‍ Made-from-scratch complex components",
-        "😊 Beautiful and smooth UI, good user experience",
-        "\uD83E\uDD16 Server Side Rendering"
+      "📊 Gestión contable integral",
+      "⚡️ Procesamiento en tiempo real con Redis",
+      "🐳 Despliegue y orquestación con Docker",
+      "🛠️ Backend robusto en .NET"
       ],
-      "github": "https://github.com/ArielFalcon/TODO-list",
       "stack": {
-        "Angular": "simple-icons:angular",
-        "RxJS": "simple-icons:reactivex",
-        "TypeScript": "simple-icons:typescript",
-        "SCSS": "simple-icons:sass",
-        "NodeJS": "ri:nodejs-line",
-        "Firebase": "simple-icons:firebase"
+      ".NET": "simple-icons:dotnet",
+      "Docker": "simple-icons:docker",
+      "Redis": "simple-icons:redis",
+      "TypeScript": "simple-icons:typescript"
       }
     },
     {
-      "name": "Portfolio",
-      "isActive": true,
-      "description": "This website! My personal portfolio, made with Astro. Integrates many themes and key shortcut actions.",
-      "highlights": [
-        "🚀 Fast, modern and SEO-friendly",
-        "🎨 Printable CV generation",
-        "〔N〕Crazy NeoVim mode, try it!"
-      ],
-      "github": "https://github.com/ArielFalcon/portfolio",
-      "stack": {
-        "Astro": "simple-icons:astro",
-        "TypeScript": "simple-icons:typescript",
-        "Tailwind": "mdi:tailwind",
-        "NodeJS": "ri:nodejs-line",
-        "PNPM": "simple-icons:pnpm",
-        "Vercel": "simple-icons:vercel"
-      },
-      "url": "https://www.arielfalcon.me"
-    },
-    {
-      "name": "AI Web Scraper",
+      "name": "Aplicación del Clima",
       "isActive": false,
-      "description": "A web scraper that uses AI to extract data from websites. It's a tool to automate the data extraction process, using machine learning to identify and extract data from websites.",
+      "description": "Aplicación web para consultar el clima en tiempo real de cualquier ciudad. Desarrollada con Node.js, MySQL y desplegada en Google Cloud.",
       "highlights": [
-        "🤖 Simple script",
-        "🔍 Data Extraction",
-        "🌐 Web scraping"
+      "☁️ Consulta de clima en tiempo real",
+      "🌎 Búsqueda por ciudad",
+      "💾 Almacenamiento de historial en MySQL",
+      "☁️ Despliegue en Google Cloud"
       ],
       "stack": {
-        "Javascript": "simple-icons:javascript",
-        "Selenium": "simple-icons:selenium",
-        "ChromeDriver": "ri:chrome-fill",
-        "Groq": "ri:robot-2-fill"
-      },
-      "github": "https://github.com/ArielFalcon/ai_web_scrapper"
+      "NodeJS": "ri:nodejs-line",
+      "MySQL": "simple-icons:mysql",
+      "Google Cloud": "simple-icons:googlecloud"
+      }
     },
     {
-      "name": "SpaceX Invaders",
+      "name": "Visual Marketing Website",
       "isActive": true,
-      "description": "A Space Invaders game with a retro look, made with Vue3 and TypeScript. It's a fun project to showcase my skills in Vue3 and TypeScript.",
+      "description": "Sitio web corporativo de Visual Marketing, agencia ecuatoriana especializada en marketing digital, branding, desarrollo web y estrategias de comunicación. Presenta servicios, portafolio, clientes y contacto.",
       "highlights": [
-        "🚀 Space Invaders game",
-        "🛸 Retro fun",
-        "🎮 Vue3 + TypeScript"
+      "🌐 Desarrollo web institucional y autoadministrable",
+      "📈 S ervicios de marketing digital y branding",
+      "🖼️ Portafolio de proyectos y clientes destacados",
+      "📱 Diseño responsive y optimización SEO",
+      "💬 Integración de formularios   y WhatsApp"
       ],
       "stack": {
-        "Vue3": "ri:vuejs-line",
-        "TypeScript": "simple-icons:typescript",
-        "CSS": "simple-icons:css",
-        "Vite": "simple-icons:vite",
-        "PNPM": "simple-icons:pnpm",
-        "Netlify": "simple-icons:netlify"
+      "Astro": "simple-icons:astro",
+      "JavaScript": "simple-icons:javascript",
+      "CSS3": "ri:css3-fill",
+      "MySQL": "simple-icons:mysql"
       },
-      "github": "https://github.com/ArielFalcon/spacex-invaders",
-      "url": "https://spacex-invaders.netlify.app/"
+      "url": "https://visualmarketing.com.ec/"
+    },
+    {
+      "name": "Everest Bot",
+      "isActive": true,
+      "description": "Bot inteligente para agencias de bienes raíces, desarrollado con Laravel y MySQL, que automatiza la atención al cliente y la gestión de propiedades a través de Meta (Facebook Messenger/WhatsApp). Permite responder consultas, agendar visitas y mostrar propiedades en tiempo real.",
+      "highlights": [
+        "🤖 Automatización de respuestas a clientes 24/7",
+        "🏠 Consulta y filtrado de propiedades en tiempo real",
+        "📅 Agendamiento automático de visitas",
+        "💬 Integración con Meta (Messenger y WhatsApp)",
+        "🔒 Gestión segura de datos de clientes y propiedades"
+      ],
+      "stack": {
+        "Laravel": "simple-icons:laravel",
+        "MySQL": "simple-icons:mysql",
+        "Meta": "simple-icons:meta"
+      }
     }
   ]
 }

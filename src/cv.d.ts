@@ -19,7 +19,7 @@ interface Basics {
   email: string;
   phone?: string;
   url: URL;
-  summary: string;
+  Resumen: string;
   location: Location;
   profiles: Array<Profiles>;
 }
@@ -45,7 +45,7 @@ interface Work {
   url: URL;
   startDate: DateStr;
   endDate: DateStr | null;
-  summary: string;
+  Resumen: string;
   highlights: Highlight;
 }
 
@@ -70,7 +70,7 @@ interface Publication {
   publisher: string;
   releaseDate: DateStr;
   url: URL;
-  summary: string;
+  Resumen: string;
 }
 
 interface Education {
